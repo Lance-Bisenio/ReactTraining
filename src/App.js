@@ -1,8 +1,17 @@
 import React from 'react'
 
+import { Navbar } from './components';
+import { Header, About, Footer } from './container';
+
+
 const App = () => {
   return (
-    <h1>App</h1>
+    <div className='app'>
+      <Navbar />
+      <Header />
+      <About />
+      <Footer />
+    </div>
   )
 }
 
